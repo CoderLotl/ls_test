@@ -7,12 +7,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./test.js" defer></script>    
 </head>
-<body class="bg-slate-300 flex items-center justify-center">
-    <div class="w-full h-full bg-zinc-200 rounded-md flex-col items-center justify-center p-[10%]">
+<body class="w-[100vw] h-[100vh] bg-slate-300 flex flex-col items-center justify-center m-0 grow">
+
+    <div class="bg-zinc-200 rounded-md flex-col items-center justify-center p-[10%] grow w-full h-full">
+
         <div class="text-center bg-green-800 text-slate-300 font-semibold text-xl mb-5 py-2">
             Local Storage Practice
         </div>
-        <fieldset class="h-[50%] bg-gray-300 rounded-md border border-black border-black flex flex-col">
+
+        <fieldset class="bg-gray-300 rounded-md border border-black border-black flex flex-col">
             <legend class="border border-black rounded-md bg-slate-200 ml-5">
                 Store
             </legend>
@@ -26,7 +29,8 @@
                 </div>
             </div>
         </fieldset>
-        <fieldset class="h-[50%] bg-gray-400 rounded-md border border-black mt-2 flex flex-col">
+
+        <fieldset class="bg-gray-400 rounded-md border border-black mt-2 flex flex-col">
             <legend class="border border-black rounded-md bg-slate-200 ml-5">
                 Retrieve
             </legend>
@@ -43,6 +47,13 @@
                 </div>
             </div>
         </fieldset>
+
+    </div>
+    <div class="w-[100%] h-[50px] bg-cyan-800 flex px-[5%] py-[5px]">
+        <a href="https://github.com/CoderLotl/ls_test" class="italic text-slate-300 font-semibold flex items-center">
+            <img src="./github-mark-white.png" width="30px" height="30px" class="mr-2">
+            github.com/CoderLotl/ls_test
+        </a>
     </div>
 </body>
 </html>
